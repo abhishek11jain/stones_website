@@ -15750,23 +15750,24 @@ Modal CSS
   z-index: 1;
 }
 
-.video-background-content h1{
+.video-background-content h1 {
   color: #fff;
-  font-size : 2.6em;
+  font-size: 2.6em;
 }
-.video-background-content p{
+
+.video-background-content p {
   font-size: 1.3em;
   color: #dddddd;
 }
 
-.who-we-are-content h2{
+.who-we-are-content h2 {
   font-size: 16px;
   text-align: justify;
   font-weight: 600;
   color: #363636;
 }
 
-.who-we-are-content p{
+.who-we-are-content p {
   text-align: justify;
 }
 
@@ -15774,30 +15775,32 @@ Modal CSS
   padding: 8px 20px 8px 20px;
   font-weight: 500;
 }
-.default-btn i{
+
+.default-btn i {
   position: initial !important;
   transform: none;
   margin-top: 0px;
   padding-left: 10px;
 }
-.section-title .sub-title{
+
+.section-title .sub-title {
   margin-bottom: 3px !important;
 }
-.section-title h2{
+
+.section-title h2 {
   font-size: 25px !important;
 }
-.section-title{
+
+.section-title {
   margin-bottom: 20px !important;
 }
+
 .top-header-info a,
 .top-header-info i,
-.top-header-social-links a{
+.top-header-social-links a {
   color: #363636 !important;
 }
 
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   border: 0;
@@ -15805,21 +15808,22 @@ Modal CSS
   font-size: 13.5px;
 }
 
-.what-we-do-image{
+.what-we-do-image {
   height: 50ch;
   width: 100%;
 }
-.what-we-do-image img{
+
+.what-we-do-image img {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
-.what-we-do-content p{
+.what-we-do-content p {
   text-align: justify;
 }
 
-.single-what-we-do-box h3{
+.single-what-we-do-box h3 {
   font-size: 16px;
 }
 
@@ -15832,11 +15836,76 @@ Modal CSS
 .shape4 {
   left: 17px;
 }
+
 .shape5 {
   right: 20px;
 }
 
 .single-works-box .works-image .works-overlay::before,
-.single-works-box .works-image .works-overlay::after{
+.single-works-box .works-image .works-overlay::after {
   background: #84c5be9e !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+
+/* Slider Section Start */
+.slider-section .slider-wrap {
+  width: 100%;
+  height: 70ch;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider-section .slide {
+  width: 20%;
+  transition: 0.5s;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left
+}
+
+.slider-section .slide1 {
+  background: url("../img/material/granite.jpg")
+}
+
+.slider-section .slide2 {
+  background: url("../img/material/marble.jpg")
+}
+
+.slider-section .slide3 {
+  background: url("../img/material/patagonia.jpg")
+}
+
+.slider-section .slide4 {
+  background: url("../img/material/quartzite.jpg")
+}
+
+.slider-section .slide5 {
+  background: url("../img/material/sand-stone.jpg")
+}
+
+.slider-section .slide:hover {
+  width: 60%
+}
+
+.slider-section .slide .content {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
+.slider-section .slide:hover .content {
+  bottom: 0;
+  transition: 0.5s;
+  transition-delay: 0.3s
 }

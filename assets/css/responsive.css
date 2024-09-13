@@ -6332,7 +6332,17 @@
     font-size: 13px;
     text-align: left;
   }
+  .slider-section .slider-wrap{
+    height: 30vh !important;
+  }
 }
+
+@media only screen and (min-width: 767px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+}
+
 
 @media only screen and (device-height : 1366px) and (device-width :1024px) and (orientation : portrait) {
   .video-background-holder {
