@@ -15804,6 +15804,7 @@ Modal CSS
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   border: 0;
+  padding: 0;
   border-radius: 0;
   font-size: 13.5px;
 }
@@ -15865,27 +15866,28 @@ Modal CSS
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left
+  background-position: leftcontent;
+  box-shadow: 0px 0px 10px 0 #6e6e6e;
 }
 
 .slider-section .slide1 {
-  background: url("../img/material/granite.jpg")
+  background: url("https://dummyimage.com/800x1600/ccc/ccc")
 }
 
 .slider-section .slide2 {
-  background: url("../img/material/marble.jpg")
+  background: url("https://dummyimage.com/800x1600/ccc/ccc")
 }
 
 .slider-section .slide3 {
-  background: url("../img/material/patagonia.jpg")
+  background: url("https://dummyimage.com/800x1600/ccc/ccc")
 }
 
 .slider-section .slide4 {
-  background: url("../img/material/quartzite.jpg")
+  background: url("https://dummyimage.com/800x1600/ccc/ccc")
 }
 
 .slider-section .slide5 {
-  background: url("../img/material/sand-stone.jpg")
+  background: url("https://dummyimage.com/800x1600/ccc/ccc")
 }
 
 .slider-section .slide:hover {
@@ -15893,19 +15895,35 @@ Modal CSS
 }
 
 .slider-section .slide .content {
-  width: 100%;
+  width: fit-content;
   position: absolute;
-  left: 0;
-  bottom: -100%;
+  right: -6.3em;
+  bottom: 5.6em;
+  padding: 10px 20px 10px 20px;
   box-sizing: border-box;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.8);
+  transform: rotate(-90deg);
+}
 
+.slider-section .slide .content h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .slider-section .slide:hover .content {
-  bottom: 0;
   transition: 0.5s;
+  display: none;
   transition-delay: 0.3s
+}
+.dropdown-item.active, .dropdown-item:active,
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: #82c5be;
+  color: #fff;
+}
+.dropdown-item{
+  padding: 8px 10px 10px !important;
 }

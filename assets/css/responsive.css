@@ -6335,6 +6335,21 @@
   .slider-section .slider-wrap{
     height: 30vh !important;
   }
+  /* .slider-section .slide .content {
+    bottom: 3.28em;
+    left: 1em ;
+    padding: 5px;
+  }
+  .slider-section .slide .content h2{
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+  .slider-section .slide:hover .content {
+    left: -0.7em !important;
+  } */
+  .slider-section .slide .content{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 767px) {
