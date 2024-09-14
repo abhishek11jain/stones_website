@@ -6236,12 +6236,12 @@
 
   .video-background-holder {
     height: 65% !important;
-    min-height: 18rem !important;
+    min-height: 25rem !important;
     object-fit: contain;
   }
 
   .video-background-content {
-    top: 12ch;
+    top: 37ch;
   }
 
   .video-background-content h1 {

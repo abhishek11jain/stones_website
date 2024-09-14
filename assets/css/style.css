@@ -85,7 +85,7 @@ Default CSS
 :root {
   --fontFamily: "Manrope", sans-serif;
   --headingFontFamily: "Poppins", sans-serif;
-  --startupMainColor: #fd5444;
+  --startupMainColor: #82c5be;
   --marketingMainColor: #2f4eac;
   --businessMainColor: #5d3dec;
   --businessGradientColor: linear-gradient(to right, #4651e6, #5749ed, #693ff3, #7c30f7, #8f11fa);
@@ -96,12 +96,13 @@ Default CSS
   --personalPortfolioMainColor: #111111;
   --itAgencyMainColor: #ff4a17;
   --itAgencyGradientColor: linear-gradient(to right, #ff4a17, #fd5d15, #fb6d16, #f87b1a, #f68821);
-  --consultingMainColor: #4eaf4e;
+  --consultingMainColor: #82c5be;
   --shopMainColor: #111111;
   --minimalPortfolioColor: #4ab19d;
   --optionalColor: #6f6f6f;
   --whiteColor: #ffffff;
   --blackColor: #2d2d37;
+  --btn-color : #3e2171;
   --fontSize: 15.5px;
   --transition: .5s;
 }
@@ -445,7 +446,7 @@ p:last-child {
 }
 
 .default-btn.consulting-color {
-  background: var(--consultingMainColor);
+  background: var(--btn-color);
 }
 
 .default-btn.it-agency-color {
@@ -6926,7 +6927,7 @@ Funfacts Area CSS
 }
 
 .single-funfacts-box.bg-white .icon.color-fd5444 {
-  color: #fd5444;
+  color: #82c5be;
 }
 
 .single-funfacts-box.bg-white .icon.color-3251ad {
@@ -15713,7 +15714,7 @@ Modal CSS
 .video-background-holder {
   position: relative;
   background-color: black;
-  height: calc(80vh - 72px);
+  height: calc(90vh - 72px);
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
