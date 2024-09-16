@@ -6240,13 +6240,13 @@
     object-fit: contain;
   }
 
-  .video-background-content {
+  /* .video-background-content {
     top: 37ch;
-  }
+  } */
 
   .video-background-content h1 {
     color: #fff;
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   .video-background-content p {
