@@ -6221,6 +6221,7 @@
     justify-content: space-between;
   }
 
+
   .navbar-nav {
     width: 100%;
     justify-content: center;
@@ -6240,13 +6241,13 @@
     object-fit: contain;
   }
 
-  .video-background-content {
+  /* .video-background-content {
     top: 37ch;
-  }
+  } */
 
   .video-background-content h1 {
     color: #fff;
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   .video-background-content p {
@@ -6325,16 +6326,20 @@
   .what-we-do-image img {
     background-position: center;
   }
-  .what-we-do-content .single-what-we-do-box{
+
+  .what-we-do-content .single-what-we-do-box {
     margin-top: 0;
   }
-  .single-what-we-do-box h3{
+
+  .single-what-we-do-box h3 {
     font-size: 13px;
     text-align: left;
   }
-  .slider-section .slider-wrap{
+
+  .slider-section .slider-wrap {
     height: 30vh !important;
   }
+
   /* .slider-section .slide .content {
     bottom: 3.28em;
     left: 1em ;
@@ -6347,15 +6352,38 @@
   .slider-section .slide:hover .content {
     left: -0.7em !important;
   } */
-  .slider-section .slide .content{
+  .slider-section .slide .content {
     display: none;
+  }
+
+  .mbb-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .p-5 {
+    padding: 2.2rem 0 2.2rem 0 !important;
+  }
+
+  .download-section {
+    padding: 100px 0 100px 0 !important;
+  }
+
+  .download-section a {
+    margin-top: 10px;
+  }
+
+  .breadcrumb-section p{
+    margin-bottom: 10px;
+  }
+  .breadcrumb-section{
+    padding: 100px 0 80px 0 !important;
   }
 }
 
 @media only screen and (min-width: 767px) {
   .dropdown:hover .dropdown-menu {
     display: block;
-}
+  }
 }
 
 
